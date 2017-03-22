@@ -191,7 +191,7 @@ body.login {
 #wrapper > header {
 }
 #wrapper > header .navbar-brand {
-    color: #fff;
+    color: #32444E;
     font-family: 'Roboto:500', sans-serif;
     text-shadow: 0px 1px 1px #000;
 }
@@ -200,27 +200,6 @@ body.login {
     margin-right: 4px;
 }
 
-#wrapper > header form input.search {
-    background: #777;
-    border: 1px solid #191919;
-    -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.3);
-    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.3);
-    -khtml-box-shadow: 0 1px 0 rgba(255,255,255,0.3);
-    box-shadow: 0 1px 0 rgba(255,255,255,0.3);
-    
-    transition: width 1s ease-in-out 0s;
-    -webkit-transition: width 100ms ease-in-out 0s;
-    width: 100px;
-}
-
-#wrapper > header form input.search:hover {
-    background: #888;
-}
-
-#wrapper > header form input.search:focus {
-    background: #eee;
-    width: 200px;
-}
 
 /**
  * Content
