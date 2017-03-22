@@ -1,7 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600,700);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,500,600,700);
-
 /**
  * Sticky Footer
  */
@@ -27,13 +23,24 @@ footer, #push {
  */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto:300', sans-serif;
     overflow: -moz-scrollbars-vertical;
-    background: #8ec2da;
+    background: #E8EAEF;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Raleway', serif;
+h1 {
+    font-family: 'Roboto Slab:700', serif;
+    color: #32444E;
+}
+
+h2 {
+    font-family: 'Roboto Slab:400', ;
+    color: #33251F;
+}
+
+h3, h4 {
+    font-family: 'Roboto Slab:300', ;
+    color: #46653C;
 }
 
 .no-border {
@@ -65,7 +72,7 @@ nav > ul {
  */
 
 a {
-    color: #0066ff;
+    color: #46653C;
     outline: none;
     text-decoration: none;
 }
@@ -91,7 +98,8 @@ abbr[title], acronym[title], dfn[title] {
 }
 
 code, kbd, samp, pre, tt, var, .code {
-    font-family: Monaco, 'Panic Sans', 'Lucida Console', 'Courier New', Courier, monospace, sans-serif;
+    font-family: 'Roboto:300', sans-serif;
+    color: #32444E;
 }
 
 ul, ol {
@@ -109,8 +117,8 @@ small, sup, sub {
 }
 
 .code {
-    background-color: #EAEFF4;
-    color: #069;
+    background-color: #E8EAEF;
+    color: #32444E;
     overflow: auto;
     padding: 2px 6px;
 }
@@ -148,9 +156,9 @@ body.login {
  */
 #promo {
     border-bottom: 1px solid #000;
-    background: #f9d835;
-    background: -webkit-gradient(linear, left top, left bottom, from(#f9d835), to(#f3961c));
-    background: -moz-linear-gradient(top, #f9d835, #f3961c);
+    background: #BA6226;
+    background: -webkit-gradient(linear, left top, left bottom, from(#BA6226), to(#BA6226));
+    background: -moz-linear-gradient(top, #BA6226, #BA6226);
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -167,8 +175,8 @@ body.login {
 }
 
 #promo .close {
-    color: #000;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    color: #32444E;
+    font-family: 'Roboto:500', sans-serif;
     font-size: 14px;
     font-weight: bold;
     float: none;
@@ -184,7 +192,7 @@ body.login {
 }
 #wrapper > header .navbar-brand {
     color: #fff;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-family: 'Roboto:500', sans-serif;
     text-shadow: 0px 1px 1px #000;
 }
 
@@ -230,7 +238,7 @@ body.login {
 }
 
 .main-section {
-    background: #afd4e6;
+    background: #E8EAEF;
     background: rgba(255,255,255,0.3);
     margin-bottom: 20px;
     -moz-border-radius: 5px;
@@ -260,7 +268,7 @@ body.login {
 }
 
 .main-content > header.panel-heading {
-    background: #eee;
+    background: #E8EAEF;
     background: -moz-linear-gradient(top,  #fafafa,  #e1e1e1);
     background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#e1e1e1));
     border-bottom-color: #999;
@@ -278,7 +286,7 @@ body.login {
 }
 
 .main-content > header.panel-heading h2 {
-    font-family: 'Merriweather', Georgia, Times, serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: normal;
     font-size: 22px;
     line-height: 22px;
@@ -311,7 +319,7 @@ body.login {
 }
 
 .main-content > header .view-switcher {
-    font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+    font-family: 'Roboto Slab:700', serif;
     font-size: 18px;
     text-shadow: 0 1px 0 #fff;
     position: relative;
@@ -328,7 +336,7 @@ body.login {
 }
 
 .main-content > header .view-switcher ul {
-    background: #dedeff;
+    background: #E8EAEF;
     border: 1px solid #999;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -369,7 +377,7 @@ body.login {
 }
 
 .main-content > header .view-switcher ul li a:hover {
-    background: #afd4e6;
+    background: #E8EAEF;
 }
 
 .main-content > section {
@@ -485,7 +493,7 @@ ul.action-buttons li a i.fa {
 }
 
 .list-view > li .more {
-    background: #bcf url(../images/arrow-right.png) no-repeat center center;
+    background: #E8EAEF url(../images/arrow-right.png) no-repeat center center;
     display: block;
     width: 16px;
     height: 100%;
@@ -569,7 +577,7 @@ ul.action-buttons li a i.fa {
 }
 
 .grid-view > li .more {
-    background: #bcf url(../images/arrow-right.png) no-repeat center center;
+    background: #E8EAEF url(../images/arrow-right.png) no-repeat center center;
     -moz-border-radius: 0 3px 3px 0;
     -webkit-border-top-right-radius: 3px;
     -webkit-border-bottom-right-radius: 3px;
@@ -737,12 +745,12 @@ ul.action-buttons li a i.fa {
 }
 
 #wrapper > section > div > div > aside nav > ul > li > a:hover {
-    background: #9ecbe0;
+    background: #E8EAEF;
     background: rgba(255,255,255,0.15);
 }
 
 #wrapper > section > div > div > aside nav > ul > li.active > a {
-    background: #afd4e6;
+    background: #E8EAEF;
     background: rgba(255,255,255,0.3);
     color: #111;
     font-weight: bold;
@@ -763,7 +771,7 @@ ul.action-buttons li a i.fa {
 }
 
 #wrapper > section > div > div > aside nav.global > ul > li > a span {
-    background: #def;
+    background: #E8EAEF;
     color: #333;
 }
 
