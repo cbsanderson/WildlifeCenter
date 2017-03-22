@@ -1,12 +1,12 @@
 body {
-    background: #8ec2da;
+    background: #E8EAEF;
 }
 
 /**
  * Promo
  */
 #promo {
-    background: #f9d835;
+    background: #E8EAEF;
     background: -webkit-gradient(linear, left top, left bottom, from(#f9d835), to(#f3961c));
     background: -moz-linear-gradient(top, #f9d835, #f3961c);
 }
@@ -15,9 +15,9 @@ body {
  * Header
  */
 #wrapper > header {
-    background: #434343;
-    background: -moz-linear-gradient(top,  #434343,  #191919);
-    background: -webkit-gradient(linear, left top, left bottom, from(#434343), to(#191919));
+    background: #32444E;
+    background: -moz-linear-gradient(top,  #32444E,  #4e6a7a);
+    background: -webkit-gradient(linear, left top, left bottom, from(#32444E), to(#4e6a7a));
 }
 
 /**
