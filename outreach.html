@@ -40,7 +40,7 @@
                             <li class="action">
 
                             <li class="active"><a href="forms.html">Application</a></li>
-                            <li><a href="#">Sign Out</a></li>
+                            <li><a href="index.html">Sign Out</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -72,7 +72,7 @@
                                 <section class="panel-body container-fluid">
 
                                     <div class="leading">
-                                    	  <form id="form" class="form-horizontal panel panel-default">
+                                    	  <form id="form" action="confirmation.html" class="form-horizontal panel panel-default">
                                             <header class="panel-heading"><h2 class="panel-title">Basic Information</h2></header>
             
                                             <fieldset class="panel-body">
@@ -124,11 +124,45 @@
                                                       <input class="form-control" type="text" name="address" />
                                                     </div>
                                                 </div>
+<div class="form-group">
+                                                    <label class="col-sm-5">Do you have a permit to rehabilitate wildlife?</label>
+                                                    <div class="col-sm-7">
+                                                        <div class="checkbox">
+                                                            Yes<label>
+                                                                <input class="checkbox" type="checkbox"/>
+                                                            </label>
+                                                            No<label>
+                                                                <input class="checkbox" type="checkbox" checked="checked"/>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+<div class="form-group">
+                                                    <label class="col-sm-5">Are you rabies vaccinated?</label>
+                                                    <div class="col-sm-7">
+                                                        <div class="checkbox">
+                                                            Yes<label>
+                                                                <input class="checkbox" type="checkbox"/>
+                                                            </label>
+                                                            No<label>
+                                                                <input class="checkbox" type="checkbox" checked="checked"/>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
-          
-                                                <div class="tab-pane active" id="tab1"><h4>Please answer the following questions.</h4> </div>
+<h4>Please answer the following questions.</h4>
                                                 
 <div class="form-group">
+         <label class="col-sm-3">Do you have any allergies or physical limitations?</label>
+                <div class="col-sm-9">
+                <textarea class="form-control" rows="5" cols="90"></textarea>
+                            </div>
+ <label class="col-sm-3">Please describe your availability weekly and seasonally. WCVV needs consistency in scheduling, and is open on weekends.</label>
+                <div class="col-sm-9">
+                <textarea class="form-control" rows="5" cols="90"></textarea>
+                            </div>                            
+                                                
          <label class="col-sm-3">Why are you interested in volunteering as an outreach docent?</label>
                 <div class="col-sm-9">
                 <textarea class="form-control" rows="5" cols="90"></textarea>
@@ -155,6 +189,15 @@
                 <div class="col-sm-9">
                 <textarea class="form-control" rows="5" cols="90"></textarea>
                             </div>
+<div class="col-sm-12">Please upload a current resume.</div>
+<div class="fileinput fileinput-new col-sm-3 col-sm-offset-3 btn-lg" data-provides="fileinput">
+    <span class="btn btn-default btn-file">
+
+    	<input type="file" multiple /></span>
+    <span class="fileinput-filename col-sm-3"></span>
+    <span class="fileinput-new"></span>
+</div>
+
                             </div>
                             
 
