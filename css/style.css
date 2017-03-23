@@ -28,6 +28,11 @@
     background-color: #080808;
 }
 
+.additionalinfo {
+    text-align: left;
+    padding-left: 15px;
+}
+
 
 /**
  * Sticky Footer
