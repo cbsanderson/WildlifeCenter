@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300');
 
-/**
- * Sticky Footer
- */
 .navbar-brand {
     float: left;
     height: 50px;
@@ -10,6 +7,32 @@
     font-size: 18px;
     line-height: 20px;
 }
+
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top,#32444E 0,#2c3d47 100%);
+    background-image: -o-linear-gradient(top,#32444E 0,#2c3d47 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#32444E),to(#2c3d47));
+    background-image: linear-gradient(to bottom,#32444E 0,#2c3d47 100%);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+    background-image: linear-gradient(to bottom,#ffffff 0,#ffffff 100%);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #000000;
+    background-color: #080808;
+}
+
+
+/**
+ * Sticky Footer
+ */
+
 * {
     margin: 0;
 }
@@ -53,7 +76,7 @@ h2 {
 h3{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
-    color: #33251F;
+    color: #46653C;
 } 
 
 h4 {
@@ -91,7 +114,7 @@ nav > ul {
  */
 
 a {
-    color: #46653C;
+    color: #BA6226;
     outline: none;
     text-decoration: none;
 }
@@ -790,13 +813,15 @@ ul.action-buttons li a i.fa {
  * Footer
  */
 body > footer {
-    background: #222;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #111), color-stop(0.1, #434343), color-stop(1, #222));
-    background: -moz-linear-gradient(top,  #111 0%,  #434343 10%, #222 100%);
-    color: #ddd;
+    background-image: -webkit-linear-gradient(top,#32444E 0,#2c3d47 100%);
+    background-image: -o-linear-gradient(top,#32444E 0,#2c3d47 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#32444E),to(#2c3d47));
+    background-image: linear-gradient(to bottom,#32444E 0,#2c3d47 100%);
     font-size: 10px;
     text-shadow: 0 1px 1px #000;
     height: 50px;
+    color:#ffffff;
+
 }
     #footer-inner > div {
         margin-top: 17px;
